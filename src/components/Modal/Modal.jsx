@@ -32,7 +32,8 @@ Modal.propTypes = {
     isOpen: PropTypes.bool.isRequired,
     imageUrl: PropTypes.string.isRequired,
     imageAlt: PropTypes.string.isRequired,
-  }),
+  }).isRequired,
+  onClose: PropTypes.func.isRequired,
 };
 
 export default Modal;
